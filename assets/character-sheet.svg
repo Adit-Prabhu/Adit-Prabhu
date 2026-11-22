@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="sheet-title sheet-desc">
+  <title id="sheet-title">Adit Prabhu — Profile Overview &amp; Technical Loadout</title>
+  <desc id="sheet-desc">Architectural matte-obsidian overview card displaying dual 4.0 GPA, 785 contributions, USCF National Master title, industry roles, and core engineering focus bars.</desc>
+
+  <defs>
+    <clipPath id="card-clip">
+      <rect x="1" y="1" width="898" height="228" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .display { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .breathe { animation: lab-breathe 2.2s ease-in-out infinite; }
+    @keyframes lab-breathe {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.38; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .breathe { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card-clip)">
+    <!-- Base Matte-Obsidian Card -->
+    <rect x="1" y="1" width="898" height="228" fill="#111318"/>
+
+    <!-- Top Header Strip -->
+    <rect x="1" y="1" width="898" height="33" fill="#161922"/>
+    <line x1="1" y1="34" x2="899" y2="34" stroke="#232732" stroke-width="1"/>
+
+    <text x="18" y="21" class="mono" font-size="10" font-weight="600" fill="#a9a9a3" letter-spacing="1.2">
+      01 // PROFILE OVERVIEW &amp; TECHNICAL LOADOUT
+    </text>
+
+    <!-- Status Indicator (dot left, text left-aligned -> guaranteed zero overlap) -->
+    <circle class="breathe" cx="654" cy="17.5" r="3" fill="#34d399"/>
+    <text x="665" y="21" class="mono" font-size="9.5" font-weight="500" fill="#a9a9a3" text-anchor="start" letter-spacing="0.8">
+      COLUMBIA MS CS · NEW YORK, NY
+    </text>
+
+    <!-- Left Architectural Panel: Tabular KPIs & Summary -->
+    <rect x="16" y="46" width="428" height="170" rx="8" fill="#161922" stroke="#232732" stroke-width="1"/>
+
+    <!-- 3-Column Swiss KPI Header Band (y=46..104) -->
+    <line x1="158" y1="46" x2="158" y2="104" stroke="#232732" stroke-width="1"/>
+    <line x1="302" y1="46" x2="302" y2="104" stroke="#232732" stroke-width="1"/>
+    <line x1="16" y1="104" x2="444" y2="104" stroke="#232732" stroke-width="1"/>
+
+    <!-- KPI 1: Dual 4.0 GPA -->
+    <text x="30" y="76" class="mono" font-size="22" font-weight="700" fill="#f2f2ee" letter-spacing="-0.6">4.0</text>
+    <text x="30" y="94" class="mono" font-size="8.6" font-weight="600" fill="#767670" letter-spacing="0.9">DUAL GPA · CU / ASU</text>
+
+    <!-- KPI 2: 785 Contributions -->
+    <text x="172" y="76" class="mono" font-size="22" font-weight="700" fill="#22d3ee" letter-spacing="-0.6">785</text>
+    <text x="172" y="94" class="mono" font-size="8.6" font-weight="600" fill="#767670" letter-spacing="0.9">12M CONTRIBUTIONS</text>
+
+    <!-- KPI 3: USCF NM + Tiny Pixel Chess Knight -->
+    <text x="316" y="76" class="mono" font-size="22" font-weight="700" fill="#fbbf24" letter-spacing="-0.6">NM</text>
+    <g transform="translate(410, 56) scale(1.6)" shape-rendering="crispEdges">
+      <rect x="4" y="0" width="2" height="1" fill="#fbbf24"/>
+      <rect x="3" y="1" width="4" height="1" fill="#fbbf24"/>
+      <rect x="2" y="2" width="7" height="2" fill="#fbbf24"/>
+      <rect x="2" y="4" width="8" height="2" fill="#f2f2ee"/>
+      <rect x="2" y="6" width="4" height="2" fill="#a9a9a3"/>
+      <rect x="3" y="8" width="5" height="2" fill="#a9a9a3"/>
+      <rect x="1" y="10" width="8" height="2" fill="#fbbf24"/>
+      <rect x="6" y="3" width="1" height="1" fill="#161922"/>
+    </g>
+    <text x="316" y="94" class="mono" font-size="8.6" font-weight="600" fill="#767670" letter-spacing="0.9">USCF CHESS MASTER</text>
+
+    <!-- 3 Hairline Metadata Rows -->
+    <text x="30" y="128" class="mono" font-size="9" font-weight="600" fill="#767670" letter-spacing="0.9">FOCUS</text>
+    <text x="114" y="128" class="sans" font-size="12" font-weight="600" fill="#f2f2ee">AI Systems, ML &amp; Game Engineering</text>
+    <line x1="28" y1="141" x2="432" y2="141" stroke="#232732" stroke-width="1"/>
+
+    <text x="30" y="165" class="mono" font-size="9" font-weight="600" fill="#767670" letter-spacing="0.9">EXPERIENCE</text>
+    <text x="114" y="165" class="sans" font-size="11.8" font-weight="600" fill="#f2f2ee">Rivian &amp; VW · RBC · MUFG · PERSUE Lab</text>
+    <line x1="28" y1="178" x2="432" y2="178" stroke="#232732" stroke-width="1"/>
+
+    <text x="30" y="201" class="mono" font-size="9" font-weight="600" fill="#767670" letter-spacing="0.9">ACADEMICS</text>
+    <text x="114" y="201" class="sans" font-size="11.5" font-weight="500" fill="#a9a9a3">Columbia MS CS · ASU Barrett Honors</text>
+
+    <!-- Right Architectural Panel: 2px Hairline Loadout Gauges -->
+    <rect x="456" y="46" width="428" height="170" rx="8" fill="#161922" stroke="#232732" stroke-width="1"/>
+
+    <text x="472" y="65" class="mono" font-size="9.5" font-weight="600" fill="#767670" letter-spacing="1.1">CORE ENGINEERING LOADOUT</text>
+    <text x="868" y="65" class="mono" font-size="9" font-weight="500" fill="#767670" text-anchor="end" letter-spacing="0.8">PRIMARY STACK</text>
+    <line x1="456" y1="74" x2="884" y2="74" stroke="#232732" stroke-width="1"/>
+
+    <!-- Gauge 1: AI / Agents / LLMs -->
+    <circle cx="476" cy="92" r="2.6" fill="#22d3ee"/>
+    <text x="486" y="95.5" class="sans" font-size="11.5" font-weight="600" fill="#f2f2ee">AI / Agents / LLMs</text>
+    <text x="868" y="95.5" class="mono" font-size="9.4" font-weight="500" fill="#22d3ee" text-anchor="end">PyTorch · LoRA · LangGraph · MCP</text>
+    <rect x="472" y="103" width="396" height="2.5" rx="1.25" fill="#252a38"/>
+    <rect x="472" y="103" width="376" height="2.5" rx="1.25" fill="#22d3ee"/>
+
+    <!-- Gauge 2: Game Dev & Simulation -->
+    <circle cx="476" cy="126" r="2.6" fill="#f472b6"/>
+    <text x="486" y="129.5" class="sans" font-size="11.5" font-weight="600" fill="#f2f2ee">Game Dev &amp; Simulation</text>
+    <text x="868" y="129.5" class="mono" font-size="9.4" font-weight="500" fill="#f472b6" text-anchor="end">pygame-ce · pymunk · C/Lisp</text>
+    <rect x="472" y="137" width="396" height="2.5" rx="1.25" fill="#252a38"/>
+    <rect x="472" y="137" width="364" height="2.5" rx="1.25" fill="#f472b6"/>
+
+    <!-- Gauge 3: Systems & Cloud / K8s -->
+    <circle cx="476" cy="160" r="2.6" fill="#a78bfa"/>
+    <text x="486" y="163.5" class="sans" font-size="11.5" font-weight="600" fill="#f2f2ee">Systems &amp; Cloud / K8s</text>
+    <text x="868" y="163.5" class="mono" font-size="9.4" font-weight="500" fill="#a78bfa" text-anchor="end">K8s · AWS · Ray · Docker · FastAPI</text>
+    <rect x="472" y="171" width="396" height="2.5" rx="1.25" fill="#252a38"/>
+    <rect x="472" y="171" width="356" height="2.5" rx="1.25" fill="#a78bfa"/>
+
+    <!-- Gauge 4: Security & Privacy -->
+    <circle cx="476" cy="194" r="2.6" fill="#fbbf24"/>
+    <text x="486" y="197.5" class="sans" font-size="11.5" font-weight="600" fill="#f2f2ee">Security &amp; Privacy</text>
+    <text x="868" y="197.5" class="mono" font-size="9.4" font-weight="500" fill="#fbbf24" text-anchor="end">PoPETs '25 · 50M+ Msgs Audit</text>
+    <rect x="472" y="205" width="396" height="2.5" rx="1.25" fill="#252a38"/>
+    <rect x="472" y="205" width="344" height="2.5" rx="1.25" fill="#fbbf24"/>
+  </g>
+
+  <!-- Outer 1px Hairline Border -->
+  <rect x="1" y="1" width="898" height="228" rx="10" fill="none" stroke="#232732" stroke-width="1"/>
+</svg>

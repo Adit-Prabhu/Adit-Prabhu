@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="64" viewBox="0 0 460 64" role="img" aria-labelledby="cta-title cta-desc">
+  <title id="cta-title">Play Interactive 2D Portfolio — adit-prabhu.github.io</title>
+  <desc id="cta-desc">Matte-obsidian architectural call-to-action pill with a pixel chess knight accent linking to Adit Prabhu's interactive 2D portfolio at adit-prabhu.github.io.</desc>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .breathe { animation: lab-breathe 2.2s ease-in-out infinite; }
+    @keyframes lab-breathe {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.38; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .breathe { animation: none; }
+    }
+  </style>
+
+  <!-- Outer Matte-Obsidian Architectural Pill -->
+  <rect x="1" y="1" width="458" height="62" rx="10" fill="#111318" stroke="#232732" stroke-width="1"/>
+
+  <!-- Left Recessed Pixel Knight Emblem Bezel -->
+  <rect x="10" y="10" width="44" height="44" rx="7" fill="#0b101b" stroke="#252a38" stroke-width="1"/>
+  <g transform="translate(21, 17.5) scale(2.4)" shape-rendering="crispEdges">
+    <rect x="4" y="0" width="2" height="1" fill="#22d3ee"/>
+    <rect x="3" y="1" width="4" height="1" fill="#fbbf24"/>
+    <rect x="2" y="2" width="7" height="2" fill="#f2f2ee"/>
+    <rect x="2" y="4" width="8" height="2" fill="#e5e4df"/>
+    <rect x="2" y="6" width="4" height="2" fill="#a9a9a3"/>
+    <rect x="3" y="8" width="5" height="2" fill="#a9a9a3"/>
+    <rect x="1" y="10" width="8" height="2" fill="#fbbf24"/>
+    <rect x="6" y="3" width="1" height="1" fill="#0b101b"/>
+  </g>
+
+  <!-- Center Architectural Copy (left-aligned cleanly -> zero collision risk) -->
+  <text x="66" y="27.5" class="mono" font-size="11.2" font-weight="700" fill="#f2f2ee" text-anchor="start" letter-spacing="0.7">
+    PLAY INTERACTIVE 2D PORTFOLIO
+  </text>
+
+  <circle class="breathe" cx="70" cy="43" r="3" fill="#34d399"/>
+  <text x="80" y="46.5" class="mono" font-size="10.2" font-weight="500" text-anchor="start" letter-spacing="0.3">
+    <tspan fill="#22d3ee">adit-prabhu.github.io</tspan>
+    <tspan fill="#767670"> · Live</tspan>
+  </text>
+
+  <!-- Right Monochrome-Inverted Architectural Action Button -->
+  <rect x="372" y="16" width="76" height="32" rx="6" fill="#f2f2ee"/>
+  <text x="410" y="35.5" class="mono" font-size="10.5" font-weight="700" fill="#111318" text-anchor="middle" letter-spacing="0.7">
+    OPEN ▸
+  </text>
+</svg>
