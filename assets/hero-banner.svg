@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Adit Prabhu — M.S. CS @ Columbia · AI Systems, ML Engineering &amp; Game Dev</title>
-  <desc id="hero-desc">Matte-obsidian Swiss-grid architectural GitHub profile banner for Adit Prabhu with restrained 2D pixel-art chess knight and character sprite accents.</desc>
+  <title id="hero-title">Adit Prabhu | M.S. CS @ Columbia · AI Systems, ML Engineering &amp; Game Dev</title>
+  <desc id="hero-desc">Matte-obsidian Swiss-grid architectural GitHub profile banner for Adit Prabhu with restrained 2D pixel-art gamepad and character sprite accents.</desc>
 
   <defs>
     <pattern id="swiss-grid" width="24" height="24" patternUnits="userSpaceOnUse">
@@ -67,7 +67,7 @@
       <tspan fill="#a9a9a3" font-weight="500" font-size="10" letter-spacing="0.6">github.com/Adit-Prabhu</tspan>
     </text>
 
-    <!-- Right Live Status Pill (left-aligned after dot -> zero overlap across fonts) -->
+    <!-- Right Live Status Pill -->
     <rect x="668" y="9.5" width="212" height="20" rx="5" fill="#111318" stroke="#232732" stroke-width="1"/>
     <circle class="breathe" cx="681" cy="19.5" r="3" fill="#34d399"/>
     <text x="692" y="23" class="mono" font-size="9.5" font-weight="500" fill="#a9a9a3" text-anchor="start" letter-spacing="0.7">
@@ -79,20 +79,20 @@
       AI SYSTEMS · ML ENGINEERING · GAME DEV · PRIVACY RESEARCH
     </text>
 
-    <!-- Main Heading + Restrained USCF NM Pill -->
+    <!-- Main Heading + Restrained PoPETs '25 Published Pill -->
     <text x="28" y="114" class="display" font-size="38" font-weight="700" fill="#f2f2ee" letter-spacing="-0.8">
       Adit Prabhu
     </text>
 
-    <rect x="276" y="90" width="174" height="23" rx="5" fill="#fbbf24" fill-opacity="0.11" stroke="#fbbf24" stroke-opacity="0.36" stroke-width="1"/>
+    <rect x="276" y="90" width="176" height="23" rx="5" fill="#fbbf24" fill-opacity="0.11" stroke="#fbbf24" stroke-opacity="0.36" stroke-width="1"/>
     <circle cx="289" cy="101.5" r="2.8" fill="#fbbf24"/>
     <text x="299" y="105" class="mono" font-size="9.5" font-weight="600" fill="#fbbf24" text-anchor="start" letter-spacing="0.6">
-      USCF NATIONAL MASTER
+      PoPETs '25 PUBLISHED
     </text>
 
     <!-- Editorial Subtitle -->
     <text x="28" y="143" class="sans" font-size="13.2" font-weight="500" fill="#a9a9a3">
-      M.S. CS @ Columbia (4.0) · AI/ML @ Rivian &amp; VW, RBC, MUFG · PoPETs '25
+      M.S. CS @ Columbia (4.0) · AI/ML @ Rivian &amp; VW, RBC, MUFG
     </text>
 
     <!-- Surgical Accent Chips Row -->
@@ -105,31 +105,25 @@
       <circle cx="194" cy="174" r="2.8" fill="#f472b6"/>
       <text x="204" y="177.5" class="mono" font-size="9.8" font-weight="500" fill="#f2f2ee" text-anchor="start">Game AI &amp; Physics</text>
 
-      <rect x="346" y="162" width="148" height="24" rx="5" fill="#161922" stroke="#232732" stroke-width="1"/>
+      <rect x="346" y="162" width="136" height="24" rx="5" fill="#161922" stroke="#232732" stroke-width="1"/>
       <circle cx="358" cy="174" r="2.8" fill="#a78bfa"/>
       <text x="368" y="177.5" class="mono" font-size="9.8" font-weight="500" fill="#f2f2ee" text-anchor="start">Cloud &amp; MLOps</text>
 
-      <rect x="502" y="162" width="106" height="24" rx="5" fill="#161922" stroke="#232732" stroke-width="1"/>
-      <circle cx="514" cy="174" r="2.8" fill="#34d399"/>
-      <text x="524" y="177.5" class="mono" font-size="9.8" font-weight="500" fill="#f2f2ee" text-anchor="start">PoPETs '25</text>
+      <rect x="490" y="162" width="132" height="24" rx="5" fill="#161922" stroke="#232732" stroke-width="1"/>
+      <circle cx="502" cy="174" r="2.8" fill="#34d399"/>
+      <text x="512" y="177.5" class="mono" font-size="9.8" font-weight="500" fill="#f2f2ee" text-anchor="start">World Models</text>
     </g>
 
     <!-- Right Recessed Dark Bezel: Tasteful 2D Pixel-Art Viewport -->
     <g clip-path="url(#viewport-clip)">
       <rect x="656" y="52" width="224" height="136" fill="#0b101b"/>
-      <!-- Subtle ground plinth tiles -->
+      <!-- Architectural plinth & subtle pixel horizon track -->
       <g shape-rendering="crispEdges">
         <rect x="656" y="154" width="224" height="34" fill="#0f1524"/>
         <line x1="656" y1="154" x2="880" y2="154" stroke="#252a38" stroke-width="1"/>
-        <!-- Subtle monochrome mini chessboard strip -->
-        <rect x="676" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="700" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="724" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="748" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="772" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="796" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="820" y="156" width="12" height="6" fill="#1c202b"/>
-        <rect x="844" y="156" width="12" height="6" fill="#1c202b"/>
+        <rect x="676" y="158" width="184" height="2" fill="#1c202b"/>
+        <rect x="692" y="158" width="48" height="2" fill="#22d3ee" fill-opacity="0.45"/>
+        <rect x="794" y="158" width="48" height="2" fill="#f472b6" fill-opacity="0.4"/>
       </g>
 
       <!-- Bezel Micro Header -->
@@ -138,65 +132,59 @@
       </text>
       <circle class="breathe" cx="867" cy="64" r="2.4" fill="#22d3ee"/>
 
-      <!-- Left Sprite: Refined 14x16 Pixel Chess Knight (4px scale -> 56x64 at x=690, y=84) -->
+      <!-- Left Sprite: Crisp 16x11 Pixel Gamepad (4px scale -> 64x44 at x=686, y=98) -->
       <g class="bob-a">
-        <g transform="translate(690, 84) scale(4)" shape-rendering="crispEdges">
-          <!-- Crisp slate/cyan silhouette -->
-          <rect x="5" y="0" width="2" height="1" fill="#22d3ee"/>
-          <rect x="4" y="1" width="1" height="1" fill="#353b4b"/>
-          <rect x="7" y="1" width="2" height="1" fill="#22d3ee"/>
-          <rect x="3" y="2" width="1" height="1" fill="#353b4b"/>
-          <rect x="9" y="2" width="1" height="1" fill="#22d3ee"/>
-          <rect x="2" y="3" width="1" height="2" fill="#353b4b"/>
-          <rect x="10" y="3" width="1" height="1" fill="#22d3ee"/>
-          <rect x="11" y="4" width="1" height="1" fill="#22d3ee"/>
-          <rect x="1" y="5" width="1" height="5" fill="#353b4b"/>
-          <rect x="12" y="5" width="1" height="2" fill="#22d3ee"/>
-          <rect x="7" y="6" width="2" height="1" fill="#353b4b"/>
-          <rect x="7" y="7" width="1" height="1" fill="#353b4b"/>
-          <rect x="9" y="7" width="3" height="1" fill="#353b4b"/>
-          <rect x="8" y="8" width="1" height="1" fill="#353b4b"/>
-          <rect x="9" y="9" width="1" height="1" fill="#353b4b"/>
-          <rect x="2" y="10" width="1" height="1" fill="#353b4b"/>
-          <rect x="10" y="10" width="1" height="2" fill="#353b4b"/>
-          <rect x="3" y="11" width="1" height="1" fill="#353b4b"/>
-          <rect x="2" y="12" width="2" height="1" fill="#353b4b"/>
-          <rect x="10" y="12" width="2" height="1" fill="#353b4b"/>
-          <rect x="1" y="13" width="1" height="2" fill="#353b4b"/>
-          <rect x="12" y="13" width="1" height="2" fill="#353b4b"/>
-          <rect x="0" y="15" width="14" height="1" fill="#22d3ee"/>
+        <g transform="translate(686, 98) scale(4)" shape-rendering="crispEdges">
+          <!-- Cyan L / R shoulder bumpers -->
+          <rect x="3" y="0" width="3" height="1" fill="#22d3ee"/>
+          <rect x="10" y="0" width="3" height="1" fill="#22d3ee"/>
 
-          <!-- Alabaster / slate knight body -->
-          <rect x="5" y="2" width="4" height="1" fill="#f2f2ee"/>
-          <rect x="4" y="3" width="6" height="1" fill="#f2f2ee"/>
-          <rect x="4" y="4" width="7" height="1" fill="#e5e4df"/>
-          <rect x="3" y="5" width="9" height="1" fill="#e5e4df"/>
-          <rect x="3" y="6" width="4" height="1" fill="#d4d3cd"/>
-          <rect x="9" y="6" width="3" height="1" fill="#d4d3cd"/>
-          <rect x="3" y="7" width="4" height="1" fill="#d4d3cd"/>
-          <rect x="3" y="8" width="5" height="1" fill="#a9a9a3"/>
-          <rect x="3" y="9" width="6" height="1" fill="#a9a9a3"/>
-          <rect x="4" y="10" width="6" height="1" fill="#a9a9a3"/>
-          <rect x="4" y="11" width="6" height="1" fill="#8c8b85"/>
-          <rect x="4" y="12" width="6" height="1" fill="#a9a9a3"/>
-          <rect x="2" y="14" width="10" height="1" fill="#575652"/>
+          <!-- Outer slate silhouette -->
+          <rect x="2" y="1" width="12" height="1" fill="#353b4b"/>
+          <rect x="1" y="2" width="1" height="1" fill="#353b4b"/>
+          <rect x="14" y="2" width="1" height="1" fill="#353b4b"/>
+          <rect x="0" y="3" width="1" height="6" fill="#353b4b"/>
+          <rect x="15" y="3" width="1" height="6" fill="#353b4b"/>
+          <rect x="5" y="7" width="6" height="1" fill="#353b4b"/>
+          <rect x="4" y="8" width="1" height="2" fill="#353b4b"/>
+          <rect x="11" y="8" width="1" height="2" fill="#353b4b"/>
+          <rect x="1" y="9" width="1" height="1" fill="#353b4b"/>
+          <rect x="14" y="9" width="1" height="1" fill="#353b4b"/>
+          <rect x="2" y="10" width="2" height="1" fill="#353b4b"/>
+          <rect x="12" y="10" width="2" height="1" fill="#353b4b"/>
 
-          <!-- Surgical Amber Mane & Pedestal Band -->
-          <rect x="5" y="1" width="2" height="1" fill="#fbbf24"/>
-          <rect x="4" y="2" width="1" height="1" fill="#fbbf24"/>
-          <rect x="3" y="3" width="1" height="2" fill="#fbbf24"/>
-          <rect x="2" y="5" width="1" height="5" fill="#fbbf24"/>
-          <rect x="3" y="10" width="1" height="1" fill="#fbbf24"/>
-          <rect x="2" y="13" width="10" height="1" fill="#fbbf24"/>
+          <!-- Alabaster / platinum controller shell -->
+          <rect x="2" y="2" width="12" height="1" fill="#f2f2ee"/>
+          <rect x="1" y="3" width="1" height="1" fill="#f2f2ee"/>
+          <rect x="14" y="3" width="1" height="1" fill="#f2f2ee"/>
+          <rect x="2" y="3" width="12" height="1" fill="#e5e4df"/>
+          <rect x="1" y="4" width="14" height="2" fill="#d4d3cd"/>
+          <rect x="1" y="6" width="14" height="1" fill="#a9a9a3"/>
+          <rect x="1" y="7" width="4" height="2" fill="#a9a9a3"/>
+          <rect x="11" y="7" width="4" height="2" fill="#a9a9a3"/>
+          <rect x="2" y="9" width="2" height="1" fill="#767670"/>
+          <rect x="12" y="9" width="2" height="1" fill="#767670"/>
 
-          <!-- Crisp Eye -->
-          <rect x="7" y="3" width="1" height="1" fill="#0b101b"/>
+          <!-- Crisp obsidian D-pad with cyan pivot -->
+          <rect x="4" y="3" width="1" height="3" fill="#161922"/>
+          <rect x="3" y="4" width="3" height="1" fill="#161922"/>
+          <rect x="4" y="4" width="1" height="1" fill="#22d3ee"/>
+
+          <!-- Center Select / Start pips -->
+          <rect x="7" y="5" width="1" height="1" fill="#575652"/>
+          <rect x="9" y="5" width="1" height="1" fill="#575652"/>
+
+          <!-- Surgical 4-color ABXY action buttons -->
+          <rect x="11" y="3" width="1" height="1" fill="#fbbf24"/>
+          <rect x="10" y="4" width="1" height="1" fill="#22d3ee"/>
+          <rect x="12" y="4" width="1" height="1" fill="#f472b6"/>
+          <rect x="11" y="5" width="1" height="1" fill="#34d399"/>
         </g>
       </g>
 
-      <!-- Right Sprite: Minimalist 12x15 Pixel Explorer Character (4px scale -> 48x60 at x=790, y=88) -->
+      <!-- Right Sprite: Minimalist 12x15 Pixel Explorer Character (4px scale -> 48x60 at x=794, y=88) -->
       <g class="bob-b">
-        <g transform="translate(790, 88) scale(4)" shape-rendering="crispEdges">
+        <g transform="translate(794, 88) scale(4)" shape-rendering="crispEdges">
           <!-- Hood / Helmet -->
           <rect x="3" y="0" width="6" height="1" fill="#353b4b"/>
           <rect x="2" y="1" width="8" height="1" fill="#232732"/>
@@ -228,7 +216,7 @@
 
       <!-- Bezel Micro Footer -->
       <text x="768" y="177" class="mono" font-size="8.5" font-weight="500" fill="#767670" text-anchor="middle" letter-spacing="0.9">
-        KNIGHT · OVERWORLD AVATAR
+        GAMEPAD · OVERWORLD AVATAR
       </text>
     </g>
     <rect x="656" y="52" width="224" height="136" rx="8" fill="none" stroke="#252a38" stroke-width="1"/>
